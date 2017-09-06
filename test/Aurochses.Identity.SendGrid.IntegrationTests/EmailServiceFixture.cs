@@ -9,6 +9,7 @@ namespace Aurochses.Identity.SendGrid.IntegrationTests
         public EmailServiceFixture()
         {
             var sendGridClient = new SendGridClient(Configuration["SendGrid:ApiKey"]);
+
             var sendGridOptions = new SendGridOptions
             {
                 FromEmailAddress = Configuration["Identity:SendGridOptions:FromEmailAddress"],
