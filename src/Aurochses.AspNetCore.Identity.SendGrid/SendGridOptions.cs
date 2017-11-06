@@ -1,4 +1,4 @@
-﻿namespace Aurochses.Identity.SendGrid
+﻿namespace Aurochses.AspNetCore.Identity.SendGrid
 {
     /// <summary>
     /// Class SendGridOptions.

@@ -1,11 +1,12 @@
-# Aurochses Identity SendGrid
+# Aurochses AspNetCore Identity SendGrid
 
-Aurochses Identity SendGrid is a library for using SendGrid for Identity.
+Aurochses AspNetCore Identity SendGrid is a library for using SendGrid for AspNetCore Identity.
 
 ## NuGet
 
-[![NuGet](https://img.shields.io/nuget/v/Aurochses.Identity.SendGrid.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Identity.SendGrid)
-[![NuGet](https://img.shields.io/nuget/dt/Aurochses.Identity.SendGrid.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Identity.SendGrid)
+[![NuGet](https://img.shields.io/nuget/v/Aurochses.AspNetCore.Identity.SendGrid.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.AspNetCore.Identity.SendGrid)
+[![NuGet](https://img.shields.io/nuget/dt/Aurochses.AspNetCore.Identity.SendGrid.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.AspNetCore.Identity.SendGrid)
+[![NuGet Status](http://nugetstatus.com/Aurochses.AspNetCore.Identity.SendGrid.png)](http://nugetstatus.com/packages/Aurochses.AspNetCore.Identity.SendGrid)
 
 ## Builds
 
