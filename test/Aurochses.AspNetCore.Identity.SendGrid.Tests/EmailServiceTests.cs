@@ -2,15 +2,15 @@
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Aurochses.Identity.SendGrid.Tests.Fakes;
-using Aurochses.Testing;
+using Aurochses.AspNetCore.Identity.SendGrid.Tests.Fakes;
+using Aurochses.Xunit;
 using Microsoft.Extensions.Options;
 using Moq;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 using Xunit;
 
-namespace Aurochses.Identity.SendGrid.Tests
+namespace Aurochses.AspNetCore.Identity.SendGrid.Tests
 {
     public class EmailServiceTests
     {

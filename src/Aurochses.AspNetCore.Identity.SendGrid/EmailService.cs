@@ -4,12 +4,12 @@ using Microsoft.Extensions.Options;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 
-namespace Aurochses.Identity.SendGrid
+namespace Aurochses.AspNetCore.Identity.SendGrid
 {
     /// <summary>
     /// Class EmailService.
     /// </summary>
-    /// <seealso cref="Aurochses.Identity.IEmailService" />
+    /// <seealso cref="Aurochses.AspNetCore.Identity.IEmailService" />
     public class EmailService : IEmailService
     {
         private readonly ISendGridClient _sendGridClient;
