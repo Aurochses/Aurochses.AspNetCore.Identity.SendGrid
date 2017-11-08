@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using Aurochses.Identity.SendGrid.IntegrationTests.Fakes;
-using Aurochses.Testing;
+using Aurochses.AspNetCore.Identity.SendGrid.IntegrationTests.Fakes;
+using Aurochses.Xunit;
 using Xunit;
 
-namespace Aurochses.Identity.SendGrid.IntegrationTests
+namespace Aurochses.AspNetCore.Identity.SendGrid.IntegrationTests
 {
     public class EmailServiceTests : IClassFixture<EmailServiceFixture>
     {

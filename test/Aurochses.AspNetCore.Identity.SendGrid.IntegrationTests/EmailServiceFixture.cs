@@ -1,8 +1,8 @@
-﻿using Aurochses.Testing;
+﻿using Aurochses.Xunit;
 using Microsoft.Extensions.Options;
 using SendGrid;
 
-namespace Aurochses.Identity.SendGrid.IntegrationTests
+namespace Aurochses.AspNetCore.Identity.SendGrid.IntegrationTests
 {
     public class EmailServiceFixture : ConfigurationFixture
     {

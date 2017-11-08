@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace Aurochses.Identity.SendGrid.Tests
+namespace Aurochses.AspNetCore.Identity.SendGrid.Tests
 {
     public class SendGridOptionsTests
     {
