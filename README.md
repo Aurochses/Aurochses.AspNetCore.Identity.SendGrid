@@ -1,26 +1,18 @@
-# Aurochses AspNetCore Identity SendGrid
+# Aurochses.AspNetCore.Identity.SendGrid
 
-Aurochses AspNetCore Identity SendGrid is a library for using SendGrid for AspNetCore Identity.
+Aurochses.AspNetCore.Identity.SendGrid is a library for ASP.NET Core Identity with SendGrid.
 
 ## NuGet
+[![NuGet Version](https://img.shields.io/nuget/v/Aurochses.AspNetCore.Identity.SendGrid.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.AspNetCore.Identity.SendGrid)
+[![NuGet Dependencies](https://img.shields.io/librariesio/release/nuget/Aurochses.AspNetCore.Identity.SendGrid.svg?style=flat-square)](https://libraries.io/nuget/Aurochses.AspNetCore.Identity.SendGrid)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Aurochses.AspNetCore.Identity.SendGrid.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.AspNetCore.Identity.SendGrid)
 
-[![NuGet](https://img.shields.io/nuget/v/Aurochses.AspNetCore.Identity.SendGrid.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.AspNetCore.Identity.SendGrid)
-[![NuGet](https://img.shields.io/nuget/dt/Aurochses.AspNetCore.Identity.SendGrid.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.AspNetCore.Identity.SendGrid)
-[![NuGet Status](http://nugetstatus.com/Aurochses.AspNetCore.Identity.SendGrid.png)](http://nugetstatus.com/packages/Aurochses.AspNetCore.Identity.SendGrid)
+## Azure DevOps
 
-## Builds
+[![Build](https://img.shields.io/azure-devops/release/Aurochses/61cd8e26-670f-4d15-9b53-5e73a476a30f/11/11.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_release?definitionId=11)
 
-Type            | Status 
-----------------|--------
-CI (develop)    | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/285.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=285)
-CI (pre-master) | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/286.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=286)
-PR (latest)     | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/287.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=287)
-NuGet           | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/288.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=288)
-
-## git-crypt
-
-https://github.com/AGWA/git-crypt
-
-git-crypt unlock C:\git-crypt\Aurochses.AspNetCore.Identity.SendGrid.key
-
-key: https://drive.google.com/drive/u/0/folders/0B-tojiX5O-2cMkllTnlwMDl1cjQ
+Branch     | Build | Tests | Coverage
+-----------|-------|-------|----------
+develop | [![Build](https://img.shields.io/azure-devops/build/Aurochses/Aurochses.GitHub/389/develop.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=389&branchName=develop) | [![Tests](https://img.shields.io/azure-devops/tests/Aurochses/Aurochses.GitHub/389/develop.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=389&branchName=develop) | [![Coverage](https://img.shields.io/azure-devops/coverage/Aurochses/Aurochses.GitHub/389/develop.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=389&branchName=develop)
+pre-master | [![Build](https://img.shields.io/azure-devops/build/Aurochses/Aurochses.GitHub/389/pre-master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=389&branchName=pre-master) | [![Tests](https://img.shields.io/azure-devops/tests/Aurochses/Aurochses.GitHub/389/pre-master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=389&branchName=pre-master) | [![Coverage](https://img.shields.io/azure-devops/coverage/Aurochses/Aurochses.GitHub/389/pre-master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=389&branchName=pre-master)
+master | [![Build](https://img.shields.io/azure-devops/build/Aurochses/Aurochses.GitHub/389/master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=389&branchName=master) | [![Tests](https://img.shields.io/azure-devops/tests/Aurochses/Aurochses.GitHub/389/master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=389&branchName=master) | [![Coverage](https://img.shields.io/azure-devops/coverage/Aurochses/Aurochses.GitHub/389/master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=389&branchName=master)
