@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78409B2F-630F-4ABA-8B49-40ED4F699445}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6587D6AE-D06D-46B6-A654-A2753E850BBC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D2C596B3-D04F-430C-8437-FB5CBEE268A5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8C7DE8F6-28AD-41BD-BB4E-199914F8DFC9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.AspNetCore.Identity.SendGrid", "src\Aurochses.AspNetCore.Identity.SendGrid\Aurochses.AspNetCore.Identity.SendGrid.csproj", "{AEB11B82-9E8C-4D78-893F-7264B751444E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.AspNetCore.Identity.SendGrid", "src\Aurochses.AspNetCore.Identity.SendGrid\Aurochses.AspNetCore.Identity.SendGrid.csproj", "{7E035DF4-3B83-4149-97C0-3A1C8E88DEC9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.AspNetCore.Identity.SendGrid.Tests", "test\Aurochses.AspNetCore.Identity.SendGrid.Tests\Aurochses.AspNetCore.Identity.SendGrid.Tests.csproj", "{6C1B1FD7-EAB3-4CD2-8A2A-603D97392FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.AspNetCore.Identity.SendGrid.Tests", "test\Aurochses.AspNetCore.Identity.SendGrid.Tests\Aurochses.AspNetCore.Identity.SendGrid.Tests.csproj", "{ABA29978-C236-4AEA-B7B2-E58F24BD93CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.AspNetCore.Identity.SendGrid.IntegrationTests", "test\Aurochses.AspNetCore.Identity.SendGrid.IntegrationTests\Aurochses.AspNetCore.Identity.SendGrid.IntegrationTests.csproj", "{796CE386-021D-4DFF-86AD-B2B54E3C8EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.AspNetCore.Identity.SendGrid.IntegrationTests", "test\Aurochses.AspNetCore.Identity.SendGrid.IntegrationTests\Aurochses.AspNetCore.Identity.SendGrid.IntegrationTests.csproj", "{E492506C-45B1-4BB9-A857-7D97996F15B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,28 +19,28 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AEB11B82-9E8C-4D78-893F-7264B751444E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEB11B82-9E8C-4D78-893F-7264B751444E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEB11B82-9E8C-4D78-893F-7264B751444E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEB11B82-9E8C-4D78-893F-7264B751444E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C1B1FD7-EAB3-4CD2-8A2A-603D97392FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C1B1FD7-EAB3-4CD2-8A2A-603D97392FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C1B1FD7-EAB3-4CD2-8A2A-603D97392FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C1B1FD7-EAB3-4CD2-8A2A-603D97392FEB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{796CE386-021D-4DFF-86AD-B2B54E3C8EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{796CE386-021D-4DFF-86AD-B2B54E3C8EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{796CE386-021D-4DFF-86AD-B2B54E3C8EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{796CE386-021D-4DFF-86AD-B2B54E3C8EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E035DF4-3B83-4149-97C0-3A1C8E88DEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E035DF4-3B83-4149-97C0-3A1C8E88DEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E035DF4-3B83-4149-97C0-3A1C8E88DEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E035DF4-3B83-4149-97C0-3A1C8E88DEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA29978-C236-4AEA-B7B2-E58F24BD93CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA29978-C236-4AEA-B7B2-E58F24BD93CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA29978-C236-4AEA-B7B2-E58F24BD93CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA29978-C236-4AEA-B7B2-E58F24BD93CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E492506C-45B1-4BB9-A857-7D97996F15B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E492506C-45B1-4BB9-A857-7D97996F15B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E492506C-45B1-4BB9-A857-7D97996F15B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E492506C-45B1-4BB9-A857-7D97996F15B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{AEB11B82-9E8C-4D78-893F-7264B751444E} = {78409B2F-630F-4ABA-8B49-40ED4F699445}
-		{6C1B1FD7-EAB3-4CD2-8A2A-603D97392FEB} = {D2C596B3-D04F-430C-8437-FB5CBEE268A5}
-		{796CE386-021D-4DFF-86AD-B2B54E3C8EB3} = {D2C596B3-D04F-430C-8437-FB5CBEE268A5}
+		{7E035DF4-3B83-4149-97C0-3A1C8E88DEC9} = {6587D6AE-D06D-46B6-A654-A2753E850BBC}
+		{ABA29978-C236-4AEA-B7B2-E58F24BD93CB} = {8C7DE8F6-28AD-41BD-BB4E-199914F8DFC9}
+		{E492506C-45B1-4BB9-A857-7D97996F15B8} = {8C7DE8F6-28AD-41BD-BB4E-199914F8DFC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {67C498A3-FBB6-4122-881B-7E57909A25B1}
+		SolutionGuid = {42D01391-3FCE-4BDD-85B4-9AE7E0D5118B}
 	EndGlobalSection
 EndGlobal
