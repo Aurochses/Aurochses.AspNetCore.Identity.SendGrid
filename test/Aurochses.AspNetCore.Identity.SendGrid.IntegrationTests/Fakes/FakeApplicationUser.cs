@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Aurochses.AspNetCore.Identity.SendGrid.IntegrationTests.Fakes
 {
+    [ExcludeFromCodeCoverage]
     public class FakeApplicationUser : IApplicationUser
     {
         public Guid Id { get; set; }
