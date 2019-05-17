@@ -11,6 +11,7 @@
             <ModulePaths>
               <Exclude>
                 <ModulePath>.*\\moq\.dll$</ModulePath>
+				<ModulePath>.*\\sendgrid\.dll$</ModulePath>
               </Exclude>
             </ModulePaths>
 
